@@ -1,16 +1,30 @@
 import React from 'react'
-import {
-  Browser as Router,
-  Link } 
-  from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './navbar.css';
+import { useRef } from 'react';
+import { FaTimes, FaBars } from "react-icons/fa";
 
-const Navbar = () => {
+function Navbar () {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  }
+
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/produits">Produits</Link>
-      <Link to="/login">Se connecter</Link>
-    </nav>
+    <header>
+      <img src="../../assets/logo.png" alt="logo Nodazon" />
+      <nav ref={navRef}>
+        <Link to="/home">Accueil</Link>
+        <Link to="/products">Nos produits</Link>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes />
+        </button>
+      </nav>
+      <button onClick={showNavbar}>
+        <FaBars />
+      </button>
+    </header>
   )
 }
 
