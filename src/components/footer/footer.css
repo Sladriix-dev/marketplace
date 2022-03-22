@@ -32,7 +32,7 @@
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    border-bottom: 1px solid #ff7f00;
+    border-bottom: 1px solid #0080ff;
   }
   .display-flex-footer {
     width: 95%;
@@ -68,7 +68,7 @@
     font-family: "Lato", sans-serif;
   }
   .lien-noir-footer:hover {
-      color: #0080ff;
+      color: #ff7f00;
   }
   .liens-footer {
     width: 95%;
@@ -77,9 +77,4 @@
     margin-bottom: 2%;
     max-width: 1400px;
     justify-content: space-evenly;
-  }
-  .bulle-paques {
-      width: 100px;
-      height: 100px;
-      background: linear-gradient(#F2DA54, #82F254, #54F2AD, #54AFF2, #8054F2, #F254DD, #F25455);
   }

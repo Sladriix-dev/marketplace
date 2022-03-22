@@ -5,7 +5,6 @@ const Footer = () => {
   return (
 <section class="footer">
 
-<div class="bulle-paques"></div>
   <div class="reseaux-logo">
     <div class="reseaux">
       <img
@@ -87,7 +86,7 @@ const Footer = () => {
     <a class="lien-noir-footer" href="">Politique de confidentialité</a>
     <a class="lien-noir-footer" href="">Conditions générales</a>
     <a class="lien-noir-footer" href="">Mentions légales</a>
-    <a class="lien-noir-footer" href="">Réalisé par Groupe N°</a>
+    <a class="lien-noir-footer" href="">Réalisé par xxx</a>
   </div>
 
 </section>
