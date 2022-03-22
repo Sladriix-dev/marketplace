@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-export default function Invoice() {
+export default function Product() {
   let params = useParams();
-  return <h2>Invoice: {params.invoiceId}</h2>;
+  return <h2>{params.productId}</h2>;
 }

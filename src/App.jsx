@@ -3,10 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div>
-      <h1>Bookkeeper</h1>
       <nav>
-        <Link to="/home">Invoices</Link> |{" "}
-        <Link to="/panier">Expenses</Link>
+        <Link to="/home">Homepage</Link>
+        <Link to="/products">Produits</Link>
       </nav>
       <Outlet />
     </div>

@@ -31,7 +31,7 @@ let products = [
     },
   ];
   
-  export function getInvoices() {
+  export function getProducts() {
     return products;
   }
 
