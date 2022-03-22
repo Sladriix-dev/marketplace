@@ -1,46 +1,6 @@
-import { render } from "react-dom";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import App from "./App";
-import Home from "./components/home/Home";
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Product from './components/Products/Product';
-import Products from "./components/Products/Products";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-const rootElement = document.getElementById("root");
-render(
-  <BrowserRouter>
-    <Header />
-    <Routes>
-        <Route path="/" element={<App />}>
-            <Route path="home" element={<Home />} />
-            <Route
-                index
-                element={
-                    <main>
-                        <p>Select a product</p>
-                    </main>
-                }
-            />
-
-            <Route path="products" element={<Products />} />
-
-            <Route path=":productId" element={<Product />} />
-            <Route
-                path="*"
-                element={
-                    <main>
-                        <p>There's nothing here!</p>
-                    </main>
-                }
-            />
-        </Route>
-    </Routes>
-    <Footer />
-  </BrowserRouter>,
-  rootElement
-);
+ReactDOM.render(<App />, document.getElementById('root'));

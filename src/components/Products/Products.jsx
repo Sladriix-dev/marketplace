@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { getProducts } from "../data";
 
 export default function Products() {
