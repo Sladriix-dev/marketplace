@@ -8,6 +8,7 @@ import App from "./App";
 import Home from "./components/home/Home";
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import Product from './components/Products/Product';
 
 const rootElement = document.getElementById("root");
 render(
@@ -19,7 +20,7 @@ render(
             <Route
                 index
                 element={
-                    <main style={{ padding: "1rem" }}>
+                    <main>
                         <p>Select a product</p>
                     </main>
                 }
