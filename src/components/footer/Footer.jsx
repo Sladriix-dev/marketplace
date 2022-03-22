@@ -1,31 +1,28 @@
-import React from 'react'
+import React from 'react';
+import './footer.css';
 
 const Footer = () => {
   return (
 <section class="footer">
-  <div class="traits-footer-haut">
-    <div class="trait-bleu"></div>
-    <div class="trait-jaune"></div>
-    <div class="trait-rouge"></div>
-  </div>
 
+<div class="bulle-paques"></div>
   <div class="reseaux-logo">
     <div class="reseaux">
       <img
         alt="facebook"
-        src=""
+        src="../assets/facebook-brands.svg/"
       />
       <img
         alt="linkedin"
-        src=""
+        src="../assets/linkedin-brands.svg"
       />
       <img
         alt="instagram"
-        src=""
+        src="../assets/instagram-square-brands.svg"
       />
       <img
         alt="twitter"
-        src=""
+        src="../assets/twitter-square-brands.svg"
       />
     </div>
 
@@ -43,7 +40,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="localisation"
-        src=""
+        src="../assets/location-dot-solid.svg"
       />
       <p class="texte-noir-footer">
         Adresse :<br />
@@ -55,7 +52,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="telephone"
-        src=""
+        src="../assets/phone-solid.svg"
       />
       <p class="texte-noir-footer">Tel : 01 55 43 26 65</p>
     </div>
@@ -63,7 +60,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="horaires"
-        src=""
+        src="../assets/clock-solid.svg"
       />
       <p class="texte-noir-footer">
         Horaires d'ouverture :<br />
@@ -75,7 +72,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="email"
-        src=""
+        src="../assets/envelope-solid.svg"
       />
       <p class="texte-noir-footer">
         Email :<br />
@@ -93,11 +90,6 @@ const Footer = () => {
     <a class="lien-noir-footer" href="">Réalisé par Groupe N°</a>
   </div>
 
-  <div class="traits-footer-bas">
-  <div class="trait-bleu"></div>
-  <div class="trait-jaune"></div>
-  <div class="trait-rouge"></div>
-  </div>
 </section>
   )
 }
