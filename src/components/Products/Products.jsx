@@ -4,17 +4,10 @@ import { getProducts } from "../data";
 export default function Products() {
   let products = getProducts();
   return (
-    <div>
-      <nav>
-        {products.map((product) => (
-          <Link
-            to={`/products/${product.number}`}
-            key={product.number}
-          >
-            {product.name}
-          </Link>
-        ))}
-      </nav>
-    </div>
+    <section>
+      <div class="xxx">
+        <h1>Bienvenue</h1>
+      </div>
+    </section>    
   );
 }

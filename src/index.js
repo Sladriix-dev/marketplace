@@ -9,6 +9,7 @@ import Home from "./components/home/Home";
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Product from './components/Products/Product';
+import Products from "./components/Products/Products";
 
 const rootElement = document.getElementById("root");
 render(
@@ -25,6 +26,9 @@ render(
                     </main>
                 }
             />
+
+            <Route path="products" element={<Products />} />
+
             <Route path=":productId" element={<Product />} />
             <Route
                 path="*"
