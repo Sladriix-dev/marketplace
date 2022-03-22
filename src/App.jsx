@@ -1,15 +1,14 @@
-import React from "react";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+import { Outlet, Link } from "react-router-dom";
 
-
-const App = () => {
-    return (
-      <>
-          <Header />
-          <Footer />
-      </>
-    )
-  }
-  
-  export default App
+export default function App() {
+  return (
+    <div>
+      <h1>Bookkeeper</h1>
+      <nav>
+        <Link to="/home">Invoices</Link> |{" "}
+        <Link to="/panier">Expenses</Link>
+      </nav>
+      <Outlet />
+    </div>
+  );
+}
