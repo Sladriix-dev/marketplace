@@ -1,0 +1,105 @@
+.footer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+  }
+  .traits-footer-haut {
+    width: 100%;
+  }
+  .traits-footer-haut img {
+    width: 100%;
+  }
+  .traits-footer-bas {
+    width: 100%;
+    margin-bottom: -1%;
+  }
+  .traits-footer-bas img {
+    width: 100%;
+  }
+  .trait-bleu {
+    width: 100%;
+    margin-bottom: 0.5%;
+    border-bottom: 2px solid #1026de;
+  }
+  .trait-jaune {
+    width: 100%;
+    margin-bottom: 0.5%;
+    border-bottom: 2px solid #f57c20;
+  }
+  .trait-rouge {
+    width: 100%;
+    margin-bottom: 0.5%;
+    border-bottom: 2px solid #e947a1;
+  }
+  .reseaux-logo {
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+  }
+  .reseaux {
+    width: 30%;
+    text-align: center;
+  }
+  .reseaux img {
+    width: 10%;
+    cursor: pointer;
+    margin-right: 3%;
+  }
+  .logo {
+    width: 50%;
+    margin: auto;
+    text-align: start;
+  }
+  .logo img {
+    width: 35%;
+  }
+  .souligne-footer {
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #1026de;
+  }
+  .display-flex-footer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+  }
+  .carte-footer {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carte-footer img {
+    width: 20px;
+    height: 50px;
+    margin-bottom: 2%;
+  }
+  .texte-noir-footer {
+    margin: 0;
+    width: 95%;
+    color: #1f1f1f;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  .lien-noir-footer {
+    margin: 0;
+    width: 95%;
+    color: #1f1f1f;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  .liens-footer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2%;
+    max-width: 1400px;
+    justify-content: space-evenly;
+  }
