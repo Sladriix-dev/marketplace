@@ -1,0 +1,53 @@
+.h1-title {
+  font-family: Share Tech;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.separator {
+  display: block;
+  margin: auto;
+  height: 2px;
+  background-color: black;
+  width: 20vw;
+}
+
+.three-product-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.product-inline {
+  box-shadow: 5px 10px 8px #888888;
+  padding: 1vw;
+  margin: 2vw;
+}
+
+.product-image {
+  margin: auto;
+  display: block;
+}
+
+.product-title {
+  font-family: "Share Tech";
+  font-size: 2vw;
+  text-align: center;
+}
+
+.product-description {
+  text-align: center;
+}
+
+.product-price {
+  text-align: center;
+  font-family: "Share Tech";
+  font-size: 1.5vw;
+}
+
+.buy-product-button {
+  display: block;
+  margin: auto;
+  font-family: Share Tech;
+  font-size: 1.5vw;
+  border: 2px solid black;
+}
