@@ -1,6 +1,12 @@
-import { useParams } from "react-router-dom";
+import React from 'react';
+import "./product.css";
 
-export default function Product() {
-  let params = useParams();
-  return <h2>{params.productId}</h2>;
+const Product = () => {
+  return (
+    <div className="product_container">
+      <img src={product.image} alt="" />
+    </div>
+  )
 }
+
+export default Product
