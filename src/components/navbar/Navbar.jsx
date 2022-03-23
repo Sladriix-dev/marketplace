@@ -37,7 +37,9 @@ HideOnScroll.propTypes = {
 const LinkStyle = {
   padding: "1rem",
   textDecoration: "none",
-  justifyContent: "center"
+  justifyContent: "center",
+  color: "white",
+  fontSize: '1.2vw'
 }
 
 const navStyle = {

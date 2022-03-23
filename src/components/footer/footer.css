@@ -1,80 +1,108 @@
 .footer {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    justify-content: space-between;
-  }
-  .reseaux-logo {
-    display: flex;
-    margin-top: 2%;
-    align-items: center;
-  }
-  .reseaux {
-    width: 30%;
-    text-align: center;
-  }
-  .reseaux img {
-    width: 10%;
-    cursor: pointer;
-    margin-right: 3%;
-  }
-  .logo {
-    width: 50%;
-    margin: auto;
-    text-align: start;
-  }
-  .logo img {
-    width: 35%;
-  }
-  .souligne-footer {
-    width: 70%;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-bottom: 1px solid #0080ff;
-  }
-  .display-flex-footer {
-    width: 95%;
-    margin: auto;
-    display: flex;
-    max-width: 1200px;
-  }
-  .carte-footer {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .carte-footer img {
-    width: 20px;
-    height: 50px;
-    margin-bottom: 2%;
-  }
-  .texte-noir-footer {
-    margin: 0;
-    width: 95%;
-    color: #1f1f1f;
-    font-size: 1.1rem;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-  }
-  .lien-noir-footer {
-    margin: 0;
-    width: 95%;
-    color: #1f1f1f;
-    font-size: 1.1rem;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-  }
-  .lien-noir-footer:hover {
-      color: #ff7f00;
-  }
-  .liens-footer {
-    width: 95%;
-    margin: auto;
-    display: flex;
-    margin-bottom: 2%;
-    max-width: 1400px;
-    justify-content: space-evenly;
-  }
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1976d2;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: Share Tech;
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+}
+.reseaux-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 3%;
+  filter: invert(100%);
+}
+
+.separator {
+  display: block;
+  margin: auto;
+  height: 2px;
+  background-color: white !important;
+  width: 30vw;
+}
+/*.logo {
+  width: 50%;
+  margin: auto;
+  text-align: start;
+}*/
+
+/*.logo img {
+  width: 35%;
+}*/
+/*.souligne-footer {
+  width: 70%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 1px solid #0080ff;
+}*/
+.display-flex-footer {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  max-width: 1200px;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.carte-footer {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.carte-footer img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5%;
+  filter: invert(100%);
+}
+.texte-noir-footer {
+  margin: 0;
+  width: 95%;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.lien-noir-footer {
+  margin: 0;
+  width: 95%;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.lien-noir-footer:hover {
+  color: #ff7f00;
+}
+.liens-footer {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  max-width: 1400px;
+  justify-content: space-evenly;
+}
+
+.credits {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.copyright {
+  color: white;
+}

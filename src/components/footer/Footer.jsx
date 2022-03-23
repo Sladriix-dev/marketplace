@@ -17,28 +17,28 @@ const Footer = () => {
   return (
 <section class="footer">
 
+  <h2>Retrouvez-nous sur les réseaux sociaux !</h2>
+
   <div class="reseaux-logo">
-    <div class="reseaux">
-      <img
+      <img class="social-icon"
         alt="facebook"
         src={fbIcon}
       />
-      <img
+      <img class="social-icon"
         alt="linkedin"
         src={linkedinIcon}
       />
-      <img
+      <img class="social-icon"
         alt="instagram"
         src={instaIcon}
       />
-      <img
+      <img class="social-icon"
         alt="twitter"
         src={twitterIcon}
       />
-    </div>
   </div>
 
-  <div class="souligne-footer"></div>
+  <div class="separator"></div>
 
   <div class="display-flex-footer">
     <div class="carte-footer">
@@ -47,7 +47,7 @@ const Footer = () => {
         src={locationIcon}
       />
       <p class="texte-noir-footer">
-        Adresse :<br />
+        ADRESSE :<br />
         25 Rue Claude Tillier<br />
         75012 Paris
       </p>
@@ -58,7 +58,7 @@ const Footer = () => {
         alt="telephone"
         src={phoneIcon}
       />
-      <p class="texte-noir-footer">Tel : 01 55 43 26 65</p>
+      <p class="texte-noir-footer">TELEPHONE :<br /> 01 55 43 26 65</p>
     </div>
 
     <div class="carte-footer">
@@ -67,7 +67,7 @@ const Footer = () => {
         src={hourlyIcon}
       />
       <p class="texte-noir-footer">
-        Horaires d'ouverture :<br />
+        HORAIRES D'OUVERTURE :<br />
         Lundi au Vendredi<br />
         8h45 - 18h
       </p>
@@ -79,19 +79,22 @@ const Footer = () => {
         src={emailIcon}
       />
       <p class="texte-noir-footer">
-        Email :<br />
+        EMAIL :<br />
         ipssi@hotmail.com
       </p>
     </div>
   </div>
 
-  <div class="souligne-footer"></div>
+  <div class="separator"></div>
 
   <div class="liens-footer">
     <a class="lien-noir-footer" href="">Politique de confidentialité</a>
     <a class="lien-noir-footer" href="">Conditions générales</a>
     <a class="lien-noir-footer" href="">Mentions légales</a>
-    <a class="lien-noir-footer" href="">Réalisé par xxx</a>
+  </div>
+
+  <div class="credits">
+    <a class="copyright" href="">Site réalisé dans le cadre d'un projet de groupe IPSSI</a>
   </div>
 
 </section>

@@ -1,13 +1,16 @@
 import React from 'react'
 import './bestProducts.css';
 
+import Product from '../Products/Product/Product';
+
+
 const BestProducts = () => {
   return (
     <div>
       
       <h1 class="h1-title">Retrouvez nos derniers produits !</h1>
 
-      <div class="separator"></div>
+      <div class="black-separator"></div>
 
       <div class="three-product-inline">
 
@@ -17,7 +20,7 @@ const BestProducts = () => {
           <div class="product-title">Product Title</div>
           <div class="product-description">Product Description</div>
           <div class="product-price">14.99 €</div>
-          <button class="buy-product-button">Acheter</button>
+          <button class="buy-product-button" to="www.google.com" renderAs={<Product />}>En savoir plus</button>
 
         </div>
 
