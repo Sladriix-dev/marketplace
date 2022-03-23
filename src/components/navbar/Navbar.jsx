@@ -46,21 +46,27 @@ const navStyle = {
   margin: "auto",
 }
 
+const appBar = {
+  marginBottom: "2vw",
+}
+
 
 export default function HideAppBar(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <HideOnScroll {...props}>
-        <AppBar>
-          <Toolbar>
-            <img src={mainLogo} alt="logo Nodazon" className='main_logo' />
-            <div style={navStyle}>
-              <Link to="/" style={LinkStyle}>Accueil</Link>
-              <Link to="/products" style={LinkStyle}>Nos produits</Link>
-            </div>
-          </Toolbar>
-        </AppBar>
+      <HideOnScroll {...props}> 
+        <div style={appBar}>
+          <AppBar>
+            <Toolbar>
+              <img src={mainLogo} alt="logo Nodazon" />
+              <div style={navStyle}>
+                <Link to="/" style={LinkStyle}>Accueil</Link>
+                <Link to="/products" style={LinkStyle}>Nos produits</Link>
+              </div>
+            </Toolbar>
+          </AppBar>
+        </div>
       </HideOnScroll>
       <Toolbar />
     </React.Fragment>
