@@ -36,13 +36,6 @@ const Footer = () => {
         src={twitterIcon}
       />
     </div>
-
-    <div class="logo">
-      <img
-        alt="logo"
-        src=""
-      />
-    </div>
   </div>
 
   <div class="souligne-footer"></div>
