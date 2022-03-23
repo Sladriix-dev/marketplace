@@ -13,7 +13,7 @@ function Navbar () {
 
   return (
     <header>
-      <img src="../../assets/logo.png" alt="logo Nodazon" />
+      <h3>Logo</h3>
       <nav ref={navRef}>
         <Link to="/home">Accueil</Link>
         <Link to="/products">Nos produits</Link>

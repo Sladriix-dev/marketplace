@@ -1,5 +1,17 @@
+import fbIcon from "../../assets/facebook-brands.svg";
+import instaIcon from "../../assets/instagram-square-brands.svg";
+import twitterIcon from "../../assets/twitter-square-brands.svg";
+import linkedinIcon from "../../assets/linkedin-brands.svg";
+import locationIcon from "../../assets/location-dot-solid.svg";
+import phoneIcon from "../../assets/phone-solid.svg";
+import hourlyIcon from "../../assets/clock-solid.svg";
+import emailIcon from "../../assets/envelope-solid.svg";
+
+
 import React from 'react';
-import './footer.css';
+import "./footer.css";
+
+
 
 const Footer = () => {
   return (
@@ -9,19 +21,19 @@ const Footer = () => {
     <div class="reseaux">
       <img
         alt="facebook"
-        src="../assets/facebook-brands.svg/"
+        src={fbIcon}
       />
       <img
         alt="linkedin"
-        src="../assets/linkedin-brands.svg"
+        src={linkedinIcon}
       />
       <img
         alt="instagram"
-        src="../assets/instagram-square-brands.svg"
+        src={instaIcon}
       />
       <img
         alt="twitter"
-        src="../assets/twitter-square-brands.svg"
+        src={twitterIcon}
       />
     </div>
 
@@ -39,7 +51,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="localisation"
-        src="../assets/location-dot-solid.svg"
+        src={locationIcon}
       />
       <p class="texte-noir-footer">
         Adresse :<br />
@@ -51,7 +63,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="telephone"
-        src="../assets/phone-solid.svg"
+        src={phoneIcon}
       />
       <p class="texte-noir-footer">Tel : 01 55 43 26 65</p>
     </div>
@@ -59,7 +71,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="horaires"
-        src="../assets/clock-solid.svg"
+        src={hourlyIcon}
       />
       <p class="texte-noir-footer">
         Horaires d'ouverture :<br />
@@ -71,7 +83,7 @@ const Footer = () => {
     <div class="carte-footer">
       <img
         alt="email"
-        src="../assets/envelope-solid.svg"
+        src={emailIcon}
       />
       <p class="texte-noir-footer">
         Email :<br />
