@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import io from "socket.io-client";
+import axios from 'axios'
+import io from 'socket.io-client'
 
 import "./products.css";
 
@@ -57,6 +58,14 @@ const searchProduct = () => {
       });
 }
 
+const deleteProduct = (productId) => {
+    console.log(productId)
+    axios.delete('http://127.0.0.1:3000/product/' + productId + '/delete')
+    .then((response) => {
+      searchProduct()
+    })
+}
+
 return (
     <div>
       <h1 class="h1-title-products">Retrouvez tous nos produits à la vente !</h1>
@@ -71,12 +80,13 @@ return (
       {/*<input class="filter-input" name="search" onChange={searchProduct}></input>*/}
       <div className='item-container'>
         {products.map((product) => (
-          <div class='card' key={product.id}>
+          <div class='card' key={product._id}>
             <img class="product-image" src={product.image} alt='product image' />
             <h3 class="products-title">{product.title}</h3>
             <p class="product-price">{product.price}</p>
             <p class="product-description">{product.description}</p>
             <button class="buy-product-button">Acheter</button>
+            <button onClick={ () => deleteProduct(product._id)}>Supprimer</button>
           </div>
         ))}
       </div>
