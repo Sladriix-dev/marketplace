@@ -63,11 +63,13 @@ return (
       <h1 class="h1-title-products">Retrouvez tous nos produits à la vente !</h1>
       
         <div class="products-filter">
-        <h2 class="h2-title-products">Filter les produits</h2>
-          <label for="Album">Album</label>
+        <h2 class="h2-title-products">Filtrer les produits :</h2>
+          
           <input value="Album" class="filter-input" type="checkbox" id="Album" name="search" onChange={clickCheckBoxAction}></input>
-          <label for="Figurine">Figurines</label>
+          <label for="Album">Album</label>
+          <br/>
           <input value="Figurines" class="filter-input" type="checkbox" id="Album" name="search" onChange={clickCheckBoxAction}></input>
+          <label for="Figurine">Figurines</label>
         </div>
       {/*<input class="filter-input" name="search" onChange={searchProduct}></input>*/}
       <div className='item-container'>
@@ -77,7 +79,7 @@ return (
             <h3 class="products-title">{product.title}</h3>
             <p class="product-price">{product.price}</p>
             <p class="product-description">{product.description}</p>
-            <button class="buy-product-button">Acheter</button>
+            <button class="info-product-button">En savoir plus</button>
           </div>
         ))}
       </div>

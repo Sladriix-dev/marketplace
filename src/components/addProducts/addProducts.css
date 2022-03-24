@@ -1,0 +1,47 @@
+.add-product-title {
+  font-family: Share Tech;
+  font-size: 2vw;
+  text-align: left;
+  border-left: 10px solid #1976d2;
+  width: 40%;
+  padding-left: 1vw;
+  margin-left: 5vw;
+}
+
+.add-product-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-example input {
+  border-radius: 30px;
+  width: 20vw;
+  height: 2.5vw;
+  margin-bottom: 1vw;
+  border: none;
+  background-color: #e8e9ed;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.form-example input::placeholder {
+  color: black;
+}
+
+.add-product-form-button input {
+  display: block;
+  margin: auto;
+  font-family: Share Tech;
+  font-size: 1.5vw;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+  background-color: transparent;
+  border-radius: 30px;
+  padding-right: 0.5vw;
+  padding-left: 0.5vw;
+}
+
+.add-product-form-button input:hover {
+  background-color: #1976d2;
+  color: white;
+}

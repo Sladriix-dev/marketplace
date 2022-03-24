@@ -1,7 +1,11 @@
 .h1-title-products {
   font-family: Share Tech;
   font-size: 2vw;
-  text-align: center;
+  text-align: left;
+  border-left: 10px solid #1976d2;
+  width: 40%;
+  padding-left: 1vw;
+  margin-left: 5vw;
 }
 
 .products-filter {
@@ -52,19 +56,20 @@
   font-size: 1.5vw;
 }
 
-.buy-product-button {
+.info-product-button {
   display: block;
   margin: auto;
   font-family: Share Tech;
   font-size: 1.5vw;
-  border: 2px solid black;
+  color: #1976d2;
+  border: 2px solid #1976d2;
   background-color: transparent;
   border-radius: 30px;
   padding-right: 0.5vw;
   padding-left: 0.5vw;
 }
 
-.buy-product-button:hover {
-  background-color: black;
+.info-product-button:hover {
+  background-color: #1976d2;
   color: white;
 }

@@ -1,7 +1,11 @@
 .h1-title {
   font-family: Share Tech;
   font-size: 2vw;
-  text-align: center;
+  text-align: left;
+  border-left: 10px solid #1976d2;
+  width: 40%;
+  padding-left: 1vw;
+  margin-left: 5vw;
 }
 
 .black-separator {

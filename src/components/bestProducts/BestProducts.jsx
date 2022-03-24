@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react'
+
+/*import HomePresentation from './components/homePresentation/homePresentation';*/
 import './bestProducts.css';
+
 
 import { io } from "socket.io-client";
 import axios from 'axios';
@@ -14,11 +17,16 @@ const BestProducts = () => {
   console.log(socket)
   })
   return (
+
+    
     <div>
+
+      {/*<HomePresentation />*/}
+
       
       <h1 class="h1-title">Retrouvez nos derniers produits !</h1>
 
-      <div class="black-separator"></div>
+      {/*<div class="black-separator"></div>*/}
 
       <div class="three-product-inline">
 

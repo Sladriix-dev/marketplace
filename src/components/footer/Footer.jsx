@@ -94,7 +94,7 @@ const Footer = () => {
   </div>
 
   <div class="credits">
-    <a class="copyright" href="">Site réalisé dans le cadre d'un projet de groupe IPSSI</a>
+    <a class="copyright" href="https://ecole-ipssi.com/" target="_blank">Site réalisé dans le cadre d'un projet de groupe IPSSI</a>
   </div>
 
 </section>

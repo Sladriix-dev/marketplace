@@ -63,6 +63,7 @@ export default function HideAppBar(props) {
               <div style={navStyle}>
                 <Link to="/" style={LinkStyle}>Accueil</Link>
                 <Link to="/products" style={LinkStyle}>Nos produits</Link>
+                <Link to="/addProducts" style={LinkStyle}>Ajouter un produit</Link>
               </div>
             </Toolbar>
           </AppBar>
