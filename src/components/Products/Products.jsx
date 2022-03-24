@@ -59,8 +59,10 @@ const searchProduct = () => {
 
 return (
     <div>
-      <h1>Featured Products</h1>
-        <div>
+      <h1 class="h1-title-products">Retrouvez tous nos produits à la vente !</h1>
+      
+        <div class="products-filter">
+        <h2 class="h2-title-products">Filter les produits</h2>
           <label for="Album">Album</label>
           <input value="Album" class="filter-input" type="checkbox" id="Album" name="search" onChange={clickCheckBoxAction}></input>
           <label for="Figurine">Figurines</label>
@@ -71,7 +73,7 @@ return (
         {products.map((product) => (
           <div class='card' key={product.id}>
             <img class="product-image" src={product.image} alt='product image' />
-            <h3 class="product-title">{product.title}</h3>
+            <h3 class="products-title">{product.title}</h3>
             <p class="product-price">{product.price}</p>
             <p class="product-description">{product.description}</p>
             <button class="buy-product-button">Acheter</button>
