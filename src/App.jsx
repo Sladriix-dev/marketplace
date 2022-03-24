@@ -4,15 +4,12 @@ import Footer from './components/footer/Footer';
 import Product from './components/Products/Product/Product';
 import Products from "./components/Products/Products";
 
-<<<<<<< HEAD
 import AddProducts from "./components/addProducts/addProducts";
 
 import BestProducts from "./components/bestProducts/BestProducts";
-=======
 import io from "socket.io-client";
 import { addResponseMessage, Widget } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
->>>>>>> e407f67a5560e2958071782860429122710eedae
 
 import BestProducts from "./components/bestProducts/BestProducts";
 import { useEffect } from "react";
