@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import './bestProducts.css';
 
 import { io } from "socket.io-client";
-import axios from 'axios';
 
 /*import Product from '../Products/Product/Product';*/
 
@@ -17,6 +16,7 @@ const BestProducts = () => {
     <div>
       
       <h1 class="h1-title">Retrouvez nos derniers produits !</h1>
+      
 
       <div class="black-separator"></div>
 
@@ -55,9 +55,13 @@ const BestProducts = () => {
       </div>  
       
       </div>
+      
 
     
   )
+  
 }
+
+
 
 export default BestProducts
