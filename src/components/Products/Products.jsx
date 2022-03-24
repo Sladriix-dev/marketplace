@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import "./products.css";
 
 //Variable global arrayOfCategories utilisées pour la valeur des checkbox afin de filtrer les produits
-const arrayOfCategories = []
+let arrayOfCategories = []
 
 
 const Products = () => {
@@ -14,7 +14,7 @@ const Products = () => {
   //const [arrayOfCategories, setArrayOfCategories] = useState([])
   useEffect(() => {
     console.log("useEffect called")
-    fetchProducts();
+    searchProduct()
 }, []);
 
 //fetchProducts nous permet de recevoir les data des products par socket 
@@ -46,8 +46,13 @@ const clickCheckBoxAction = (event) => {
 
 const searchProduct = () => {
     const socket = io("http://127.0.0.1:3000")
+    let arrayOfCategoriesToEmit = arrayOfCategories
+    if (arrayOfCategories.length == 0) {
 
-    socket.emit("filteredProduct", {"category": arrayOfCategories})
+      arrayOfCategoriesToEmit = ["Album", "Figurines"]
+    }
+    socket.emit("filteredProduct", {"category": arrayOfCategoriesToEmit})
+
       socket.on ('listProducts', function (data) {
         setProducts(data)
       });
