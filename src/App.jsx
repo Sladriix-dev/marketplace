@@ -10,8 +10,6 @@ import BestProducts from "./components/bestProducts/BestProducts";
 import io from "socket.io-client";
 import { addResponseMessage, Widget } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
-
-import BestProducts from "./components/bestProducts/BestProducts";
 import { useEffect } from "react";
 
 let sessionId = null;

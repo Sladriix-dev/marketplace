@@ -53,7 +53,8 @@ const searchProduct = () => {
     }
     socket.emit("filteredProduct", {"category": arrayOfCategoriesToEmit})
 
-      socket.on ('listProducts', function (data) {
+      socket.on ('listProduct', function (data) {
+        console.log(data)
         setProducts(data)
       });
 }
