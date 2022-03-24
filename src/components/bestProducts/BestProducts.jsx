@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './bestProducts.css';
 
-import Product from '../Products/Product/Product';
+import { io } from "socket.io-client";
+import axios from 'axios';
+
+/*import Product from '../Products/Product/Product';*/
 
 
 const BestProducts = () => {
+
+  useEffect(() =>{
+  const socket = io("http://127.0.0.1:3000")
+  console.log(socket)
+  })
   return (
     <div>
       
@@ -20,7 +28,7 @@ const BestProducts = () => {
           <div class="product-title">Product Title</div>
           <div class="product-description">Product Description</div>
           <div class="product-price">14.99 €</div>
-          <button class="buy-product-button" to="www.google.com" renderAs={<Product />}>En savoir plus</button>
+          <button class="buy-product-button">En savoir plus</button>
 
         </div>
 

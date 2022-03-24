@@ -4,7 +4,6 @@ import "./product.css";
 const Product = () => {
   return (
     <div className="product_container">
-      <img src={product.image} alt="" />
     </div>
   )
 }
