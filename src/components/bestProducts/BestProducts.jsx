@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-/*import HomePresentation from './components/homePresentation/homePresentation';*/
+import HomePresentation from '../homePresentation/homePresentation';
 import './bestProducts.css';
 
 
@@ -20,7 +20,7 @@ const BestProducts = () => {
     
     <div>
 
-      {/*<HomePresentation />*/}
+      <HomePresentation />
 
       
       <h1 class="h1-title">Retrouvez nos derniers produits !</h1>

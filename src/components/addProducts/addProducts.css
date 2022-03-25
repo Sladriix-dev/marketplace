@@ -11,6 +11,11 @@
 .add-product-div {
   display: flex;
   justify-content: center;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  width: 30%;
+  margin: auto;
+  padding: 3vw;
+  border-radius: 30px;
 }
 
 .form-example input {
@@ -18,14 +23,14 @@
   width: 20vw;
   height: 2.5vw;
   margin-bottom: 1vw;
-  border: none;
-  background-color: #e8e9ed;
+  border: 2px solid #1976d2;
+  background-color: #1976d221;
   padding-left: 1vw;
   padding-right: 1vw;
 }
 
 .form-example input::placeholder {
-  color: black;
+  color: black !important;
 }
 
 .add-product-form-button input {

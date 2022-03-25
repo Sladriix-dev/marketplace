@@ -1,0 +1,42 @@
+.welcome-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5vw;
+}
+
+.welcome-section-h1 {
+  font-family: Share Tech;
+  font-size: 2vw;
+  text-align: left;
+  border-left: 10px solid #1976d2;
+  width: 40%;
+  padding-left: 1vw;
+  margin-left: 5vw;
+}
+
+.presentation-text {
+  text-align: justify;
+  width: 50%;
+  margin-top: 3vw;
+}
+
+.welcome-section-h2 {
+  font-family: Share Tech;
+  color: #222;
+  font-size: 1.5vw;
+  text-align: left;
+  border-left: 10px solid #1976d2;
+  width: 40%;
+  padding-left: 1vw;
+  margin-left: 5vw;
+}
+
+.welcome-img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+}
+
+.welcome-img img {
+  border-radius: 30px;
+}
